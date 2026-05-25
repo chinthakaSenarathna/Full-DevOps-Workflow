@@ -126,7 +126,7 @@
 - Change API endpoint in the frontend to point to the EC2 public IP.
 - Edit the necessary file (e.g., `.env` or config file):
   ```bash
-  vi src/config.js
+  vim src/config.js
   ```
 - Save and exit:
   - **Save and Quit**: `:wq`
@@ -150,5 +150,4 @@
      ```
    - Obtain and apply an SSL certificate:
      ```bash
-     sudo certbot --nginx
-     ```
+x      ```
