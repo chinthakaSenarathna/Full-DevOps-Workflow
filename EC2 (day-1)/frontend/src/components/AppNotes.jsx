@@ -7,6 +7,7 @@ const AppNotes = () => {
   useEffect(() => {
     const fetchNotes = async () => {
       try {
+        // You should see requests to http://13.49.75.30:8000/notes
         const response = await fetch("http://13.49.75.30:8000/notes");
         const data = await response.json();
         setNotes(data);
